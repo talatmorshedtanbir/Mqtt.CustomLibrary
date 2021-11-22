@@ -4,4 +4,4 @@
 - Can be modified to use any MQTT library
 - Customization based on need.
 
-**Technologies used: ASP Net Core, MQTTnet **
+**Technologies used: ASP Net Core, MQTTnet**
