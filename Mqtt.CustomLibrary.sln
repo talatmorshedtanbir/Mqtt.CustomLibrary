@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mqtt.CustomLibrary", "./Mqtt.CustomLibrary/Mqtt.CustomLibrary.csproj", "{28367ECE-0D91-4045-8314-03C0A2302448}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mqtt.CustomLibrary", "Mqtt.CustomLibrary\Mqtt.CustomLibrary.csproj", "{28367ECE-0D91-4045-8314-03C0A2302448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mqtt.CustomLibrary.Tests.Unit", "Mqtt.CustomLibrary.Tests.Unit\Mqtt.CustomLibrary.Tests.Unit.csproj", "{371C0B70-AE0B-4066-B1D6-A2A70A8A1ACF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{28367ECE-0D91-4045-8314-03C0A2302448}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28367ECE-0D91-4045-8314-03C0A2302448}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28367ECE-0D91-4045-8314-03C0A2302448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371C0B70-AE0B-4066-B1D6-A2A70A8A1ACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371C0B70-AE0B-4066-B1D6-A2A70A8A1ACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371C0B70-AE0B-4066-B1D6-A2A70A8A1ACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371C0B70-AE0B-4066-B1D6-A2A70A8A1ACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
